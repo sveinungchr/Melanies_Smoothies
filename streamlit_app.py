@@ -40,4 +40,6 @@ if Ingredients_list:
         itworked = "Your Smoothie is ordered,"+ name_on_order
         st.success(itworked)
         
-    #st.write(my_insert_stmt)
+import requests
+fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
+st.text(fruityvice_response)

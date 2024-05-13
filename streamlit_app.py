@@ -56,5 +56,5 @@ if Ingredients_list:
         session.sql(my_insert_stmt).collect()
         itworked = "Your Smoothie is ordered,"+ name_on_order
         st.success(itworked)
-        
+        #test2
 
